@@ -34,6 +34,7 @@ import ReactQuiz from "./Components/Quiz/ReactQuiz";
 import Profile from "./Components/Pages/Profile";
 import Feedback from "./Components/Pages/Feedback";
 import FeedbackAll from "./Components/Pages/FeedbackAll";
+import Admin from "./Components/Routes/Admin";
 
 function App() {
   return (
@@ -93,6 +94,7 @@ function App() {
         <Route path="/feedback" element={<FeedbackAll />} />
 
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
       <BotpressChatbot />
     </>
