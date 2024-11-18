@@ -22,6 +22,7 @@ import api from "../../utils/axios-custom";
 const CourseManagement = () => {
   const { Search } = Input;
   const { Title } = Typography;
+  const { TextArea } = Input;
 
   // useState
   const [getAllCourses, setGetAllCourses] = useState([]);
@@ -457,7 +458,7 @@ const CourseManagement = () => {
               },
             ]}
           >
-            <Input placeholder="Enter Detail" />
+            <TextArea rows={2} placeholder="Enter Detail" maxLength={6} />
           </Form.Item>
 
           <Form.Item label="Picture">
