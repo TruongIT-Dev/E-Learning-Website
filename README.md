@@ -61,6 +61,6 @@ Users can explore available courses, purchase them with secure checkout, and beg
 ## 🔗 Test the Website
 
 You can try the demo version of the website here:  
-👉 [Visit Test Site]([https://your-demo-link.com](https://test-deploy-six-mocha.vercel.app/))
+👉 [Visit Test Site]: ([https://test-deploy-six-mocha.vercel.app/])
 
 ---
